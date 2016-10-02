@@ -1,0 +1,131 @@
+/***** BASE STYLES *****/
+body {
+  font-family: 'Montserrat', sans-serif;
+  padding: 20px;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+}
+
+/***** GRID *****/
+.full-width {
+  width: 100%;
+  margin: 0 auto;
+  clear: both;
+}
+
+.half-width {
+  width: 50%;
+  float: left;
+}
+
+.third-width {
+  width: 32.5%;
+  float: left;
+  height: 210px;
+  padding-top: 25px;
+}
+
+/***** HEADER *****/
+header h1 {
+  padding:20px 0;
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #000000;
+  font-weight: bold;
+}
+
+header h1 span {
+  color: #77a466;
+}
+
+nav {
+  float: right;
+  padding: 30px 0;
+}
+
+nav ul li{
+    display: inline-block;
+    padding:0 10px;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  color: #77a466;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+#beans-img {
+  border-top: 3px solid #77a466;
+  border-bottom: 3px solid #77a466;
+}
+
+/***** ABOUT *****/
+#about h2 {
+  font-weight: bold;
+  font-size: 18px;
+  color: #77a466;
+  text-transform: uppercase;
+}
+
+#about p {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+/***** MENU *****/
+#menu p {
+  list-style: none;
+  color: #77a466;
+  text-align: left;
+  font-size: 16px;
+}
+
+#menu .third-width {
+  border-top: 1px solid #dedbdc;
+  border-bottom: 1px solid #dedbdc;
+}
+
+/***** REVIEWS *****/
+#reviews .third-width {
+  border: 1px solid #dedbdc;
+  padding-left: 25px;
+}
+
+#reviews p {
+  width: 325px;
+  line-height: 25px;
+}
+
+/***** LOCATIONS *****/
+#locations .third-width {
+  border-top: 1px solid #dedbdc;
+  border-bottom: 1px solid #dedbdc;
+}
+#locations h3 {
+  padding-left: 25px;
+}
+#locations p {
+  line-height: 25px;
+  padding-left: 25px;
+}
+
+/***** FOOTER *****/
+footer h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding-top: 20px;
+}
+
+footer h2 span {
+  font-family: 'Dancing Script', cursive;
+  text-transform: none;
+  color: #77a466;
+}
